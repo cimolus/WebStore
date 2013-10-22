@@ -1,0 +1,372 @@
+@CHARSET "UTF-8";
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+	font-family: 'Segoe UI Light', 'Segoe UI', Tahoma, Arial, Helvetica, Sans-Serif;
+	color: #000;
+	background: repeat  url("../images/background.jpg");
+}
+
+header {
+    position: relative;
+    width: 980px;
+    height:73px;
+    background: white;
+    margin: 10px auto 0px auto;
+    padding: 15px;
+}
+
+header .logo {
+    position: relative;
+    float: left;
+    height: 73px;
+}
+
+header .logo img {
+    height: 73px;
+}
+
+/*header nav {
+    position: relative;
+    float:right;
+    /*width: 586px;
+    height: 59px;
+    padding: 7px;
+    /*background: black;
+}*/
+/*
+header nav .navBox {
+    position: relative;
+    float: left;
+    height: 59px;
+    width: 60px;
+    background: yellow;
+    margin-left: 10px;
+}
+*/
+.container {
+    position: relative;
+    margin: 10px auto 0px auto;
+    width: 980px;
+    background:#fff;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.container aside {
+    position: relative;
+    float:left;
+    width: 250px;
+}
+
+.container section {
+    float:left;
+    position: relative;
+    border-left: 2px gray solid;
+    padding: 15px;
+    width: 698px;
+}
+
+
+.boxShadow {
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+footer {
+    clear: both;
+    position: relative;
+    width:996px;
+    height: 40px;
+    background: #fff;
+    margin: 10px auto 30px auto;
+    padding: 7px;
+    text-align: center;
+}
+
+.container aside ul {
+
+}
+
+.container aside ul li {
+    list-style: none;
+    font-size: 20px;
+}
+
+.container aside ul a{
+    text-decoration: none;
+}
+
+.container aside li ul {
+    display: none;  
+}
+
+.container aside li ul > li {
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+.container aside li:hover > ul {
+    display: block;
+}
+
+#dock {
+	position: relative; 
+	width: 400px; 
+	float:right; 
+	margin-top: 40px; 
+}
+.dock-container { 
+	position: relative; 
+	top: -8px; 
+	height: 50px; 
+	padding-left: 20px; 
+}
+a.dock-item { 
+	display: block; 
+	width: 50px; 
+	position: absolute; 
+	bottom: 0; 
+	text-align: center; 
+	text-decoration: none; 
+	color: #333; 
+}
+.dock-item span { 
+	display: none; 
+	padding-left: 20px; 
+}
+.dock-item img { 
+	border: 0; 
+	margin: 5px 10px 0px; 
+	width: 100%; 
+}
+
+
+/*------------------*/
+.slider {
+	width: 698px;
+	height: 240px;
+	//Градиент как apple.com
+}
+
+.slider .controlPanel {
+	float:left;
+	width: 50px;
+	height: 240px;
+}
+
+.slider .slide {
+	float:left;
+	width: 598px;
+	height: 240px;
+	overflow: hidden;
+}
+
+.slide .slides {
+	position:relative;
+	height: 240px;
+	width: 1794px;
+	left: 0px;
+}
+
+.productBox {
+	position:relative;
+	float:left;
+	padding: 10px;
+	width:110px;
+	height:180px;
+	margin: 20px 10px;
+}
+
+.productBox img {
+	position: relative;
+	width: 110px;
+	height: 125px;
+}
+
+.productBox p {
+	text-align:center;
+	font-size:15px;
+	width: 110px;
+	overflow:hidden;
+}
+
+a.group1-Prev, a.group1-Next
+{
+    width:50px;height:150px;
+    background:transparent url("../images/navbuttons2.gif"); 
+    display:block; 
+    cursor:pointer;
+    position:absolute;
+    top:60px;
+    user-select: none;
+}
+a.group1-Prev{
+	background-position:0 0;
+}
+a.group1-Next {
+	background-position:0 -150px;
+}
+a.group1-Prev:hover{
+	background-position:50px 0;
+}
+a.group1-Next:hover {
+	background-position:50px -150px;
+}
+
+
+article {
+	position:relative;
+	width:698px;
+	border-bottom: solid gray 1px;
+	overflow:hidden;
+	margin-top:10px;
+}
+
+article img {
+	position:relative;
+	float:left;
+	/*width: 59px;*/
+	max-width: 150px;
+	height: 124px;
+}
+.content {
+	position:relative;
+	width: 500px;
+	float:left;
+	margin-left: 28px;
+}
+
+.description {
+	width: 100%;
+	font-size: 18px;
+}
+
+.productName {
+	text-align: center;
+	
+}
+
+.detailed {
+	font-size: 14px;
+}
+
+.detaileDescription {
+	clear:both;
+	position:relative;
+	font-size: 18px;
+	width:100%;
+	overflow:hidden;
+	word-wrap: break-word; 
+	text-align: justify;
+}
+
+.addToBasketButton {
+	background: #679dc9 url("../images/basketlogo.jpg") no-repeat;
+	position:relative;
+	width:170px;
+	height: 37px;
+	float:right;
+	text-align: right;
+	bottom:10px;
+	padding-right: 7px;
+	font-size: 20px;
+	color: #f4fcfe;
+	border-radius:5px;
+}
+
+.addToBasketButton:HOVER {
+	color: #4d4d4d;
+}
+hr {
+	clear: both;
+}
+.commentTextForm {
+	margin: 10px auto;
+	width: 580px;
+	height: 70px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.commentForm {
+	position:relative;
+	width:100%;
+	text-align: center;
+}
+
+.submitComment {
+	width: 150px;
+	height: 30px;
+	text-align: center;
+	background: #679dc9;
+	margin-bottom: 10px;
+	border-radius:5px;
+	color: #f4fcfe;
+}
+
+.commentContainer {
+	position:relative;
+	width:100%;
+	padding: 7px;
+}
+
+.commentContainer .author {
+}
+
+.commentContainer .text {
+	width:100%;
+	
+}
+
+.productInBasket {
+	width: 500px;
+	height: 50px;
+}
+
+.productInBasket img {
+	height: 50px;
+	float:left;
+}
+
+/*Authorithation*/
+
+.authorithation {
+	widht: 100%;
+	text-align: center;
+}
+
+.input_field {
+	width: 90%;		
+	height: 30px;
+	text-align: center;
+	margin-top:5px;
+	font-size: 20px;
+	border: #4294ac solid 1px;
+	color: #4c4c4c;
+}
+.input_submit {
+	background:#679dc9;
+	text-align:center;
+	margin-top: 5px;
+	color: #f4fcfe;
+	width: 120px;
+	height: 25px;
+}
+
+.registration {
+	width: 300px;
+	margin: 10px auto;
+	text-align:center;
+}
+

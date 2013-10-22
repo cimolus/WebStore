@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN" "http://tiles.apache.org/dtds/tiles-config_2_0.dtd"> 
+<tiles-definitions>
+	<definition name="baseLayout" template="/WEB-INF/jsp/layout.jsp">
+		<put-attribute name="header" value="/WEB-INF/jsp/header.jsp" />
+		<put-attribute name="aside" value="/WEB-INF/jsp/aside.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/footer.jsp" />
+	</definition>
+
+	<definition name="home" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/views/home.jsp" />
+	</definition>
+	
+	<definition name="listOfProducts" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/views/listOfProducts.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="detaileProduct" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/views/detaileProduct.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="productsInBasket" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/views/productsInBasket.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="admin" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/jsp/admin.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="registration" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/views/registration.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="orderPage" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/views/orderPage.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="paymentPage" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/views/paymentPage.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="faq" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/views/faq.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="searchPage" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/views/searchPage.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="slides" template="/WEB-INF/views/slides.jsp">	
+	</definition>
+	
+	<definition name="signin" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/views/signin.jsp"></put-attribute>
+	</definition>
+	
+</tiles-definitions>
+

@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+
+.imagesContainer {
+	width: 500px;
+	margin: 10px auto;
+	text-align: center;
+}
+
+.imagesContainer img {
+	height: 150px;
+	float:left;
+	padding:5px;
+	margin: 5px;
+}
+
+/*
+.bigImage {
+	margin-left:auto;
+	margin-right:auto;
+	height:300px;
+	margin-bottom: 20px;
+	padding: 5px;
+	border: gray solid 1px;
+}
+
+
+.imagesList {
+	width:100%;
+	text-align: center;
+}
+
+.imagesList img {
+	padding: 2px;
+	border: gray solid 1px;
+	height:170px;
+	margin-left:5px;
+	margin-right:5px;
+	width:100px;
+	float:left;
+}*/

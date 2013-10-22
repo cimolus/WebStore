@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.moorate_container { z-index:9999999; padding:0; vertical-align: middle; overflow:hidden; display:block; float:left;}
+
+.moorate { margin:0;padding:0; overflow:hidden; width: 150px; height: 29px; float: left; background: url('../images/stars30.png') repeat-x;vertical-align: middle; }
+.moorate span { float: left; margin:0;padding:0;  display: block; width: 150px; height: 29px; text-decoration: none; text-indent: -9000px; z-index: 20; }
+.moorate .curr { background: url('stars30.png') left 60px;}
+.moorate .default { background: url('stars30.png') left 30px;}
+.mooratelabel { left: 15px; position: relative; float: left; font-size:25px; color:#999;vertical-align: middle; width:100px;}
+
